@@ -58,6 +58,15 @@ html{
     border-radius: 0px;
 }
 
+.calculator_button:focus{
+    outline: none!important;
+}
+.calculator_button:focus-visible{
+    outline: none!important;
+}
+.calculator_button:focus-within{
+    outline: none!important;
+}
 .calculator_button div{
     position: absolute;
     top: 0;
