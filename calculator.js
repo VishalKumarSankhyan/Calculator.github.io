@@ -1,6 +1,6 @@
 /* PWA  code start*/
 if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('serviceWorker.js')
+        navigator.serviceWorker.register('https://vishalkumarsankhyan.github.io/Calculator.github.io/serviceWorker.js')
 }
 /* PWA  code end*/
 
