@@ -1,6 +1,6 @@
 var cacheName = 'Calculator';
 var cachefiles = [
-    '/',/*url*/
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/',/*url*/
     'index.html',
     'calculator.css',
     'calculator.js',
