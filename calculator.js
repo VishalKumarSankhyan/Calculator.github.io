@@ -1,6 +1,6 @@
 /* PWA  code start*/
 if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js' , {scope:'https://github.com/VishalKumarSankhyan/Calculator.github'})
+        navigator.serviceWorker.register('https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js' , {scope:'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js'})
 }
 /* PWA  code end*/
 
