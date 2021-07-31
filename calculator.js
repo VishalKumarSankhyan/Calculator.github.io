@@ -1,7 +1,7 @@
 /* PWA  code start*/
 if ("serviceWorker" in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('serviceworker.js').then(() => {
+        navigator.serviceWorker.register('https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js').then(() => {
             console.log('Service Worker Registered')
         })
     })
