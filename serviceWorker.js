@@ -1,12 +1,11 @@
 var cacheName = 'Calculator';
 var cachefiles = [
-    'https://vishalkumarsankhyan.github.io/Calculator.github.io/',/*url*/
-    'index.html',
-    'calculator.css',
-    'calculator.js',
-    'app.js',
-    'calculator_icon.ico',
-    'calculator.png',
+    '/',/*url*/
+    'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/index.html',
+    'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/calculator.css',
+    'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/calculator.js',
+    'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/calculator_icon.ico',
+    'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/calculator.png',
 ];
 
 self.addEventListener("install", installEvent => {
