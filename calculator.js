@@ -1,10 +1,6 @@
 /* PWA  code start*/
-if ("serviceWorker" in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js').then(() => {
-            console.log('Service Worker Registered')
-        })
-    })
+if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js' , {scope:'https://github.com/VishalKumarSankhyan/Calculator.github.io/blob/main/serviceWorker.js'})
 }
 /* PWA  code end*/
 
