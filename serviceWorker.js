@@ -1,23 +1,23 @@
 var cacheName = 'Calculator';
 var cachefiles = [
-    '/',/*url*/
-    'index.html',
-    'calculator.css',
-    'calculator.js',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/',/*url*/
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/index.html',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator.css',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator.js',
     
-    'serviceWorker.js',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/serviceWorker.js',
 
-    'calculator ico.ico',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator ico.ico',
 
-    'calculator 64x64.png',
-    'calculator 72x72.png',
-    'calculator 96x96.png',
-    'calculator 128x128.png',
-    'calculator 144x144.png',
-    'calculator 152x152.png',
-    'calculator 192x192.png',
-    'calculator 256x256.png',
-    'calculator 512x512.png'
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 64x64.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 72x72.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 96x96.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 128x128.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 144x144.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 152x152.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 192x192.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 256x256.png',
+    'https://vishalkumarsankhyan.github.io/Calculator.github.io/calculator 512x512.png'
 ];
 
 self.addEventListener("install", installEvent => {
