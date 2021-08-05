@@ -5,7 +5,9 @@
 
 body{
     /*Disables pull to refresh and overscroll glow effect. still keeps swipe navigations*/
-    overscroll-behavior-y: none;
+
+    overscroll-behavior-y: contain;
+    overscroll-behavior:contain;
 }
 
 html{
