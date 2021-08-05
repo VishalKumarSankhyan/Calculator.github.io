@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body{
+    /*Disables pull to refresh and overscroll glow effect. still keeps swipe navigations*/
+    overscroll-behavior-y: none;
+}
+
 html{
     -webkit-tap-highlight-color: transparent;
 }
